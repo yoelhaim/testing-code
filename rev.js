@@ -1,5 +1,5 @@
 var reverseWords = function (s) {
-  let str = s.split(" ").reverse().join(" ").toString();
+  let str = s.toString().split("").reverse().join("");
   console.log(str);
 };
-reverseWords("  hello world  ");
+reverseWords(0);
